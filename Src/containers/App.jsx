@@ -7,7 +7,6 @@ import CarouselItem from '../Components/CarouselItem';
 import Footer from '../Components/Footer';
 import '../assets/styles/App.scss';
 
-
 const App = () => (
   <div className="App">
     <Header />
