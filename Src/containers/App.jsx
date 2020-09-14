@@ -11,11 +11,28 @@ const App = () => (
   <div className="App">
     <Header />
     <Search />
-    <Categories>
+
+    <Categories title="Mi lista">
       <Carousel>
+        <CarouselItem />
+        <CarouselItem />
+      </Carousel>
+      </Categories>
+
+      <Categories title="Tendencias">
+      <Carousel>
+        <CarouselItem />
+        <CarouselItem />
+      </Carousel>
+      </Categories>
+
+      <Categories title="Aprende español con Spkinpanish">
+      <Carousel>
+        <CarouselItem />
         <CarouselItem />
       </Carousel>
     </Categories>
+
     <Footer />
   </div>
 );
